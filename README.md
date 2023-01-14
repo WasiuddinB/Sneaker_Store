@@ -1,6 +1,12 @@
 # Sneaker_Store
 This is a basic store where you can find sneaker of your choice and add them to your cart.
 
+# Screenshots
+![324383463_959061508834038_4722855224254331694_n](https://user-images.githubusercontent.com/95867855/212480548-e6bf9c74-5a7a-4c37-90bf-6f0fe916d31e.jpg)
+![322300064_3312450369014944_6171573512941399492_n](https://user-images.githubusercontent.com/95867855/212480601-dfc2b257-85b3-4d46-ae83-1c64a7c0110e.jpg)
+![323713461_852563046004780_4529843269455925179_n](https://user-images.githubusercontent.com/95867855/212480637-e6017cd6-fb0f-42f5-b90d-e81049358390.jpg)
+![324043514_692620525840944_1817428931209642698_n](https://user-images.githubusercontent.com/95867855/212480651-275fd4eb-52a4-4c61-9114-d08a1a553f4e.jpg)
+
 ## Features
 
 * Login
