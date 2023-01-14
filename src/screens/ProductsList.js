@@ -7,7 +7,9 @@ function renderProduct({item: product}) {
     return (
       <Product {...product} 
       onPress={() => {
-        console.log("Hello World");
+        navigation.navigate('ProductDetails', {
+          productId: product.id,
+        });
       }}
       />
     );
