@@ -11,7 +11,7 @@ This is a basic store where you can find sneaker of your choice and add them to 
 
 ### Installation
 1. Clone the repository
-* git clone https://github.com/username/react-native-project.git
+* git clone https://github.com/WasiuddinB/Sneaker_Store.git
 
 2. Install the dependencies 
 * npm install
