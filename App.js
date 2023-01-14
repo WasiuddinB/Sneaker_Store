@@ -7,6 +7,9 @@ import { ProductDetails } from './src/screens/ProductDetails.js';
 import { Cart } from './src/screens/Cart.js';
 import { CartIcon } from './src/components/CartIcon.js';
 import { CartProvider } from './CartContext.js';
+import LogInScreen from './Authentication/LogInScreen.js';
+import { LogOut } from './src/components/LogOut.js';
+
 
 
 const Stack = createNativeStackNavigator();
@@ -20,17 +23,20 @@ function App() {
          <NavigationContainer>
 
             <Stack.Navigator>
+              <Stack.Screen name='Login' component={LogInScreen} />
               <Stack.Screen name='Products' component={ProductsList} 
               options={({ navigation }) => ({
                 title: '              Products',
                 headerTitleStyle: styles.headerTitle,
                 headerRight: () => <CartIcon navigation={navigation}/>
+                ,headerLeft: ()=><LogOut navigation={navigation}/>
               })}/>
               <Stack.Screen name='ProductDetails' component={ProductDetails} 
               options={({ navigation }) => ({
                 title: '          Product details',
                 headerTitleStyle: styles.headerTitle,
                 headerRight: () => <CartIcon navigation={navigation}/>
+                ,headerLeft: ()=><LogOut navigation={navigation}/>
               })} />
               <Stack.Screen name='Cart' component={Cart} 
               options={({ navigation }) => ({
